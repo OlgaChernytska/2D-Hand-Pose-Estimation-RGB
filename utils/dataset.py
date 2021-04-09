@@ -15,7 +15,7 @@ class FreiHAND(Dataset):
     Link to dataset:
     https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html
     """
-    def __init__(self, data_dir):
+    def __init__(self, data_dir, train=True, train_share=0.8):
         self.image_dir = os.path.join(data_dir, "training/rgb")
         self.image_names = np.sort(os.listdir(self.image_dir))
         
@@ -26,7 +26,18 @@ class FreiHAND(Dataset):
         fn_anno = os.path.join(data_dir, "training_xyz.json")
         with open(fn_anno, "r") as f:
             self.anno = np.array(json.load(f))
-            
+        
+        if train:
+            n_start = 0
+            n_end = int(len(self.anno) * train_share)
+        else:
+            n_start = int(len(self.anno) * train_share)
+            n_end = len(self.anno)
+ 
+        self.image_names = self.image_names[n_start:n_end]
+        self.K_matrix = self.K_matrix[n_start:n_end]
+        self.anno = self.anno[n_start:n_end]
+        
         self.image_transform = transforms.ToTensor()
 
     def __len__(self):
