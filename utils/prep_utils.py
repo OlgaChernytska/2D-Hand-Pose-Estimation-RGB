@@ -89,7 +89,7 @@ class IoULoss(nn.Module):
     """
     Intersection over Union Loss.
     IoU = Area of Overlap / Area of Union
-    IoU loss is modfied to use for heatmaps.
+    IoU loss is modified to use for heatmaps.
     """
 
     def __init__(self):

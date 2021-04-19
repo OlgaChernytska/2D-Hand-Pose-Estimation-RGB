@@ -42,7 +42,7 @@ class Trainer:
                 )
 
             # early stopping
-            if epoch < -self.early_stopping_avg:
+            if epoch < self.early_stopping_avg:
                 min_val_loss = np.round(np.mean(self.loss["val"]), self.early_stopping_precision)
                 no_decrease_epochs = 0
 
