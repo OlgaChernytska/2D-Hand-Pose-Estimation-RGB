@@ -1,2 +1,8 @@
 torch==1.8.1
 torchvision==0.9.1
+pandas==1.2.4
+numpy==1.19.5
+Pillow==8.1.2
+matplotlib==3.4.1
+opencv-python==4.5.1.48
+tqdm==4.60.0
