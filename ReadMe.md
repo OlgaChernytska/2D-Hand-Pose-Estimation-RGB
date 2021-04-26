@@ -3,7 +3,7 @@
 ![Title](title.png)
 
 ## 1. Description
-Repository includes working PyTorch pipeline to train a model and make inference.
+Repository includes working PyTorch pipeline to train a model and make inferences.
 
 Here are my tutorials that explain it in details: 
 
@@ -11,7 +11,7 @@ Here are my tutorials that explain it in details:
 - Gentle introduction to 2D Hand Pose Estimation: Let's Code it!
 
 
-For this project, open-source FreiHAND dataset is used. Download it [here](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html).
+For this project, open-source [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html) dataset is used.
 
 
 ## 2. Repository Content
