@@ -18,13 +18,13 @@ For this project, open-source [FreiHAND](https://lmb.informatik.uni-freiburg.de/
 
 Repository has the following files:
 
-- Train Notebook.ipynb (notebook to train a model)
-- Inference Notebook.ipynb (notebook for inferences)
+- notebooks/Train Notebook.ipynb (notebook to train a model)
+- notebooks/Inference Notebook.ipynb (notebook for inferences)
 - utils/model.py (model class)
 - utils/dataset.py (dataset class to load FreiHAND dataset)
 - utils/trainer.py (class to train model)
 - utils/prep_utils.py (supplementary functions)
-- model_final (trained model weights)
+- weights/model_final (trained model weights)
 - requirements.txt (required packages & versions)
 
 
