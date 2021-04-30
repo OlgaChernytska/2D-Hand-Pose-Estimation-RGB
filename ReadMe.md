@@ -8,7 +8,7 @@ Repository includes working PyTorch pipeline to train a model and make inference
 Here are my tutorials that explain it in details: 
 
 - [Gentle introduction to 2D Hand Pose Estimation: Approach Explained](https://notrocketscience.blog/gentle-introduction-to-2d-hand-pose-estimation-approach-explained/)
-- Gentle introduction to 2D Hand Pose Estimation: Let's Code it!
+- [Gentle introduction to 2D Hand Pose Estimation: Let's Code It!](https://notrocketscience.blog/gentle-introduction-to-2d-hand-pose-estimation-lets-code-it/)
 
 
 For this project, open-source [FreiHAND](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html) dataset is used.
