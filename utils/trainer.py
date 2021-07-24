@@ -74,7 +74,6 @@ class Trainer:
             labels = data["heatmaps"].to(self.device)
 
             self.optimizer.zero_grad()
-            running_loss = []
 
             outputs = self.model(inputs)
             loss = self.criterion(outputs, labels)
