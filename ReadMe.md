@@ -28,5 +28,6 @@ Repository has the following files:
 - requirements.txt (required packages & versions)
 
 
-
+## 3. License
+This project is licensed under the terms of the [MIT license](https://choosealicense.com/licenses/mit/).
 
